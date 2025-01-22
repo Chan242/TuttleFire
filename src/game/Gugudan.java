@@ -1,7 +1,7 @@
 package game;
 
 public class Gugudan {
-	Gugudan() {
+	public Gugudan() {
 
 	}
 
