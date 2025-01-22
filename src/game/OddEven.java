@@ -10,26 +10,34 @@ import java.util.Scanner;
  * 3. 해당 숫자가 홀수인지 짝수인지 맞추는 게임이다.
  */
 
-
 public class OddEven {
-	
+
 	public void oe() {
 		Scanner scan = new Scanner(System.in);
 		Random ran = new Random();
 
-		int num = ran.nextInt(100) * 1
+		int sum = ran.nextInt(100) * 1
 		System.out.println("0. 홀짝게임 시작");
 		System.out.println("문제: [" + ram + "]");
 		System.out.println("1. 홀");
 		System.out.println("2. 짝");
 		
 		System.out.println("번호를 고르세요.");
+		int choice = scan.nextInt();
 		
-		if()
-
+		if(choice == 1) {
+			if(sum %= 2)
+			System.out.println("정답!");
+		}
+		if(sum%2 == 0) {
+			System.out.println("오답!");
+		}
+		if(sum == 2) {
+			if(choice %= 1)
+		}
+		if(sum==) {
+			
+		}
 	}
-	
-	
-	
-	
+
 }
